@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.funcom.com/.well-known/*
+host: https://www.funcom.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: No .well-known discovery documents published. Funcom is a consumer video-game
+  developer with no public developer API surface at this host. Recorded as a negative
+  result for idempotent re-runs; no WellKnown pointer wired.

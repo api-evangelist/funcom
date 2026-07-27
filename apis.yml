@@ -1,7 +1,27 @@
 aid: funcom
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/funcom.png
 name: Funcom
-description: 'Funcom is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Funcom is a Norwegian video-game developer and publisher founded in
+  1993, headquartered in Oslo with additional studios in Raleigh (North Carolina),
+  Lisbon, and Bucharest. It is best known for online, open-world, and survival titles
+  including Dune: Awakening, Conan Exiles, Age of Conan, and The Secret World / Secret
+  World Legends, alongside published titles such as Metal: Hellsinger, Aloft, Dune:
+  Spice Wars, and Mutant Year Zero. Funcom is majority-owned by Tencent. It was surfaced
+  as a Northzone portfolio company and added to the API Evangelist network as a company
+  profile; it does not currently publish a public developer API surface, so this profile
+  captures company identity, legal/support links, and domain-security posture rather
+  than API artifacts.'
 url: https://raw.githubusercontent.com/api-evangelist/funcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Video Games
+- Game Developer
+- Gaming
+- Entertainment
+- MMO
+- Norway
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.funcom.com
+- type: Support
+  url: https://www.funcom.com/contacts/
+- type: TermsOfService
+  url: https://www.funcom.com/legal/
+- type: PrivacyPolicy
+  url: https://www.funcom.com/privacy-policy/
+- type: DomainSecurity
+  url: security/funcom-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
